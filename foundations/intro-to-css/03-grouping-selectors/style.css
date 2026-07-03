@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.same {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.cover {
+    background-color: black;
+    }
+
+.wrapper {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    margin-right: 1010px;
+    /* vertical-align: middle; */
+}
