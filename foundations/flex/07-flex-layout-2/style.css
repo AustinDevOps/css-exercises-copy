@@ -1,29 +1,86 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   min-height: 100vh;
+  /* display: flex; */
+}
+
+.group1 {
+  display: flex;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.group2 {
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 32px;
+  /* flex-direction: column; */
+  padding: 10px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .sidebar {
-  width: 300px;
+  width: 500px;
   background: royalblue;
   box-sizing: border-box;
+  height: 520px;
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 24px;
+  padding: 16px;
+  /* gap: 20px; */
+  justify-content: flex-start;
+  /* align-items: flex-start; */
 }
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  /* flex: 1; */
+  padding: 16px;
+  width: 300px;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: baseline;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+}
+
+/* li {
+    flex-shrink: 0;
+  } */
